@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    android:orientation="vertical"
+
+   >
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择要添加的目标类型"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#D9ffff"
+        />
+
+    <Button
+        android:id="@+id/today_goal"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#D9ffff"
+        android:text="今日目标"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/week_goal"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#D9ffff"
+        android:text="本周目标"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/month_goal"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#D9ffff"
+        android:text="本月目标"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/year_goal"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#D9ffff"
+        android:text="年度目标"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>
