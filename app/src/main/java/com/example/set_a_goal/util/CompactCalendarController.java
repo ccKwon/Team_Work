@@ -417,9 +417,6 @@ class CompactCalendarController {
         bigCircleIndicatorRadius = shouldDrawIndicatorsBelowSelectedDays && eventIndicatorStyle == CompactCalendarView.SMALL_INDICATOR ? bigCircleIndicatorRadius * 0.85f : bigCircleIndicatorRadius;
     }
 
-    //assume square around each day of width and height = heightPerDay and get diagonal line length
-    //interpolate height and radius
-    //https://en.wikipedia.org/wiki/Linear_interpolation
     private float getInterpolatedBigCircleIndicator() {
         float x0 = textSizeRect.height();
         float x1 = heightPerDay; // take into account indicator offset
@@ -491,8 +488,6 @@ class CompactCalendarController {
         }
     }
 
-    // Add a little leeway buy checking if amount scrolled is almost same as expected scroll
-    // as it maybe off by a few pixels
     private boolean isScrolling() {
         float scrolledX = Math.abs(accumulatedScrollOffset.x);
         int expectedScrollX = Math.abs(width * monthsScrolledSoFar);
