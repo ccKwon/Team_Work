@@ -88,6 +88,22 @@
         android:id="@+id/calendar"
         android:text="日历"
         />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather"
+        android:text="天气"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:textColor="@color/colorWhite"
+        android:text="北京"
+        >
+
+    </TextView>
     <TextView
         android:id="@+id/progress_bar"
         android:layout_width="match_parent"

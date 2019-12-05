@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value = "weather"></dbname>
+
+    <version value = "1"></version>
+    <list>
+        <mapping class="com.example.set_a_goal.db.Province"></mapping>
+        <mapping class="com.example.set_a_goal.db.City"></mapping>
+        <mapping class="com.example.set_a_goal.db.County"></mapping>
+    </list>
+</litepal>
